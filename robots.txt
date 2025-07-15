@@ -1,27 +1,13 @@
-# ============================
-# Studeatz robots.txt - Production SEO Optimized
-# Food Ordering Platform for College Students
-# ============================
-
-# Allow all search engines full access to public content
+# Studeatz robots.txt - Campus Food Ordering App
 User-agent: *
 Allow: /
-Allow: /about
-Allow: /features
-Allow: /contact
-Allow: /menu
-Allow: /privacy-policy
-Allow: /terms-of-service
 
-# Block sensitive areas and prevent indexing of private content
+# Block sensitive areas
 Disallow: /admin/
 Disallow: /api/
 Disallow: /auth/
 Disallow: /dashboard/
 Disallow: /user/
-Disallow: /orders/
-Disallow: /payment/
-Disallow: /checkout/
 Disallow: /profile/
 Disallow: /tmp/
 Disallow: /logs/
@@ -31,46 +17,24 @@ Disallow: /*?*sessionId*
 Disallow: /*?*token*
 Disallow: /*?*auth*
 
-# Block duplicate content and search results
+# Block duplicate content
 Disallow: /search?
 Disallow: /*?sort=
 Disallow: /*?filter=
-Disallow: /*&sort=
-Disallow: /*&filter=
 
-# Prevent indexing of app download redirects
-Disallow: /download/
-Disallow: /app-store/
-Disallow: /play-store/
-
-# Block development and testing paths
+# Block development paths
 Disallow: /dev/
 Disallow: /test/
 Disallow: /staging/
-Disallow: /_next/
-Disallow: /static/
 
-# Optimize for Google specifically
+# Optimize crawling
 User-agent: Googlebot
-Allow: /
 Crawl-delay: 1
 
-# Optimize for Bing
 User-agent: Bingbot
-Allow: /
 Crawl-delay: 2
 
-# Handle aggressive crawlers
-User-agent: AhrefsBot
-Crawl-delay: 10
-
-User-agent: SemrushBot
-Crawl-delay: 10
-
-User-agent: MJ12bot
-Crawl-delay: 10
-
-# Block problematic bots
+# Block AI crawlers
 User-agent: CCBot
 Disallow: /
 
@@ -80,20 +44,5 @@ Disallow: /
 User-agent: GPTBot
 Disallow: /
 
-User-agent: AI2Bot
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-# Point crawlers to XML sitemaps
+# Sitemap
 Sitemap: https://studeatz.com/sitemap.xml
-Sitemap: https://studeatz.com/sitemap-menu.xml
-Sitemap: https://studeatz.com/sitemap-colleges.xml
-
-# Additional SEO directives
-# Cache directive for better crawling
-Cache-delay: 1
-
-# Host directive (helps with canonicalization)
-Host: https://studeatz.com
