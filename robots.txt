@@ -45,4 +45,4 @@ User-agent: GPTBot
 Disallow: /
 
 # Sitemap
-Sitemap: https://studeatz.com/sitemap.xml
+Sitemap: https://www.studeatz.com/sitemap.xml
