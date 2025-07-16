@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Privacy Policy | Studeatz - Campus Food Pre-Ordering App</title>
+    <meta name="description" content="Studeatz Privacy Policy - Learn how we protect your personal information and handle data securely for our campus food pre-ordering service.">
+    <meta name="keywords" content="privacy policy, data protection, Studeatz, student food app, campus dining">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://studeatz.com/privacy-policy.html">
+    
+    <!-- Theme & Browser Settings -->
+    <meta name="theme-color" content="#FF6B35">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon.png">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://studeatz.com/privacy-policy.html">
+    <meta property="og:title" content="Privacy Policy | Studeatz">
+    <meta property="og:description" content="Learn how Studeatz protects your personal information and handles data securely.">
+    <meta property="og:image" content="https://studeatz.com/assets/logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Sora', system-ui, -apple-system, sans-serif;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        
+        body {
+            font-family: Inter, system-ui, sans-serif;
+            background: #fafbfc;
+            color: #374151;
+        }
+        
+        /* Content section */
+        .content-section {
+            background: transparent;
+            position: relative;
+        }
+        
+        /* Main card styling */
+        .policy-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        
+        .policy-card:hover {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        /* Section items */
+        .section-item {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-left: 3px solid #f97316;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        
+        .section-item:hover {
+            border-left-color: #ea580c;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transform: translateX(2px);
+        }
+        
+        /* Professional header */
+        .policy-header {
+            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+            color: white;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .policy-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .policy-header * {
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Info cards */
+        .info-card {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+        
+        .info-card:hover {
+            background: #f3f4f6;
+            border-color: #d1d5db;
+        }
+        
+        /* Rights grid */
+        .rights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .rights-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        
+        .rights-card:hover {
+            border-color: #f97316;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Contact card */
+        .contact-card-enhanced {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 2rem;
+            position: relative;
+        }
+        
+        /* Icon styling */
+        .icon-wrapper {
+            background: #f97316;
+            border-radius: 6px;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: white;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        .icon-wrapper-large {
+            background: #f97316;
+            border-radius: 8px;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            color: white;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        /* Professional badge */
+        .professional-badge {
+            background: #f97316;
+            color: white;
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        /* Alert boxes */
+        .alert-success {
+            background: #f0f9ff;
+            border: 1px solid #0ea5e9;
+            border-left: 4px solid #0ea5e9;
+            color: #0c4a6e;
+            border-radius: 6px;
+        }
+        
+        .alert-info {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-left: 4px solid #f59e0b;
+            color: #92400e;
+            border-radius: 6px;
+        }
+        
+        /* Professional button */
+        .btn-professional {
+            background: #f97316;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-professional:hover {
+            background: #ea580c;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Typography adjustments */
+        .text-professional {
+            color: #374151;
+            line-height: 1.7;
+        }
+        
+        .text-muted {
+            color: #6b7280;
+        }
+        
+        .text-emphasis {
+            color: #1f2937;
+            font-weight: 600;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .rights-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-item:hover {
+                transform: translateX(1px);
+            }
+        }
+        
+        /* Remove floating elements for professional look */
+        .floating-element {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header Navigation -->
+    <div class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b-2 border-gray-200">
+        <header role="banner">
+            <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+                <div class="flex justify-between items-center h-16">
+                    <a href="index.html" class="flex items-center space-x-3">
+                        <img src="assets/logo.png" alt="Studeatz Logo" class="h-14 w-auto">
+                    </a>
+                    <a href="index.html" class="text-orange-600 hover:text-orange-700 font-medium transition-colors">
+                        ← Back to Home
+                    </a>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Main Content -->
+    <main class="content-section min-h-screen py-12">        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="policy-card p-8 lg:p-12">
+                <!-- Professional Header -->
+                <div class="policy-header p-8 lg:p-10 text-center mb-12">
+                    <h1 class="text-3xl lg:text-4xl font-bold mb-4">Privacy Policy</h1>
+                    <div class="professional-badge mb-4">
+                        <span class="mr-2">📅</span>
+                        Effective Date: July 16, 2025
+                    </div>
+                    <p class="text-lg text-white/90 max-w-2xl mx-auto leading-relaxed">
+                        Your privacy matters. This policy explains how we collect, use, and protect your personal information.
+                    </p>
+                </div>
+
+                <!-- Introduction -->
+                <div class="section-item p-6 rounded-lg mb-8">
+                    <p class="text-professional text-lg leading-relaxed">
+                        At <strong class="text-emphasis">Studeatz</strong>, accessible from 
+                        <a href="https://www.studeatz.com" class="text-orange-600 hover:text-orange-700 underline font-medium">https://www.studeatz.com</a>, 
+                        we are committed to protecting your privacy and personal information. This Privacy Policy explains our practices regarding the collection, use, and protection of your data when you use our campus food pre-ordering service.
+                    </p>
+                </div>
+
+                <!-- Information We Collect -->
+                <div class="section-item p-8 rounded-lg mb-8">
+                    <h2 class="text-2xl font-bold text-emphasis mb-6 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>📊</span>
+                        </div>
+                        Information We Collect
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="info-card p-6">
+                            <div class="flex items-start">
+                                <span class="mr-3 text-orange-600 text-2xl">👤</span>
+                                <div>
+                                    <h3 class="text-lg font-semibold text-emphasis mb-2">Account Information</h3>
+                                    <p class="text-professional">Name, email address, and phone number for secure account management and service personalization.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-card p-6">
+                            <div class="flex items-start">
+                                <span class="mr-3 text-orange-600 text-2xl">💳</span>
+                                <div>
+                                    <h3 class="text-lg font-semibold text-emphasis mb-2">Payment Information</h3>
+                                    <p class="text-professional">Transaction data processed securely through certified payment partners using industry-standard encryption protocols.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How We Use Your Information -->
+                <div class="section-item p-6 rounded-lg mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>🎯</span>
+                        </div>
+                        How We Use Your Information
+                    </h2>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center">
+                            <span class="mr-3 text-orange-600 flex-shrink-0">🚀</span>
+                            <span>To provide and continuously improve our food pre-ordering service</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="mr-3 text-orange-600 flex-shrink-0">📧</span>
+                            <span>To send transactional communications like order confirmations, OTPs, and receipts</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="mr-3 text-orange-600 flex-shrink-0">🔔</span>
+                            <span>To communicate important service updates, new features, and notifications</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="mr-3 text-orange-600 flex-shrink-0">📈</span>
+                            <span>To analyze usage patterns and enhance user experience</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="mr-3 text-orange-600 flex-shrink-0">🛡️</span>
+                            <span>To prevent fraud and ensure platform security</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sharing of Information -->
+                <div class="section-item p-6 rounded-lg mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>🤝</span>
+                        </div>
+                        Sharing of Information
+                    </h2>
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                        <p class="text-green-800 font-medium">
+                            🔒 <strong>We do not sell or rent your personal information.</strong>
+                        </p>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        We may share your information only in the following circumstances:
+                    </p>
+                    <ul class="mt-3 space-y-2 text-gray-700">
+                        <li>• With trusted restaurant partners to fulfill your orders</li>
+                        <li>• With payment processors to handle secure transactions</li>
+                        <li>• When required by law or to comply with legal obligations</li>
+                        <li>• To protect the rights and safety of our users and platform</li>
+                    </ul>
+                </div>
+
+                <!-- Cookies and Tracking -->
+                <div class="section-item p-6 rounded-lg mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>🚫</span>
+                        </div>
+                        No Cookies or Tracking
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        We respect your privacy and do not use any cookies or tracking technologies on our platform. Your browsing experience remains completely private, and we do not collect any behavioral data or analytics about your usage patterns.
+                    </p>
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                        <p class="text-green-800 text-sm">
+                            ✅ <strong>Cookie-free experience</strong> - We don't use any cookies, tracking pixels, or similar technologies to monitor your activity.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Your Rights -->
+                <div class="section-item p-8 rounded-lg mb-8">
+                    <h2 class="text-2xl font-bold text-emphasis mb-6 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>⚖️</span>
+                        </div>
+                        Your Privacy Rights
+                    </h2>
+                    <p class="text-professional mb-8">
+                        You have important rights regarding your personal data. We are committed to facilitating the exercise of these rights:
+                    </p>
+                    <div class="rights-grid">
+                        <div class="rights-card">
+                            <div class="flex items-center mb-4">
+                                <span class="mr-3 text-orange-600 text-2xl">📋</span>
+                                <h3 class="text-lg font-semibold text-emphasis">Data Access</h3>
+                            </div>
+                            <p class="text-professional">Request a comprehensive copy of your personal data in a structured, commonly used format.</p>
+                        </div>
+                        <div class="rights-card">
+                            <div class="flex items-center mb-4">
+                                <span class="mr-3 text-orange-600 text-2xl">✏️</span>
+                                <h3 class="text-lg font-semibold text-emphasis">Data Correction</h3>
+                            </div>
+                            <p class="text-professional">Update or correct inaccurate personal information to ensure data accuracy and completeness.</p>
+                        </div>
+                        <div class="rights-card">
+                            <div class="flex items-center mb-4">
+                                <span class="mr-3 text-orange-600 text-2xl">🗑️</span>
+                                <h3 class="text-lg font-semibold text-emphasis">Data Deletion</h3>
+                            </div>
+                            <p class="text-professional">Request deletion of your personal data, subject to legal and regulatory requirements.</p>
+                        </div>
+                        <div class="rights-card">
+                            <div class="flex items-center mb-4">
+                                <span class="mr-3 text-orange-600 text-2xl">📥</span>
+                                <h3 class="text-lg font-semibold text-emphasis">Data Portability</h3>
+                            </div>
+                            <p class="text-professional">Receive your data in a portable format for transfer to other service providers.</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 p-6 alert-info">
+                        <p class="text-professional text-center">
+                            <strong>Need assistance with your privacy rights?</strong> Contact our support team at 
+                            <a href="mailto:support@studeatz.com" class="text-orange-600 hover:text-orange-700 font-medium underline">support@studeatz.com</a>
+                            for prompt assistance within 48 hours.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Data Security -->
+                <div class="section-item p-6 rounded-lg mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>🔐</span>
+                        </div>
+                        Data Security
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        We implement robust, industry-standard security measures to protect your personal information, including advanced encryption protocols, secure cloud servers, and regular security audits. Our security infrastructure is designed to safeguard your data against unauthorized access and ensure the highest level of protection for all user information.
+                    </p>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="section-item p-8 rounded-lg">
+                    <h2 class="text-2xl font-bold text-emphasis mb-6 flex items-center">
+                        <div class="icon-wrapper-large mr-4">
+                            <span>📞</span>
+                        </div>
+                        Contact Information
+                    </h2>
+                    <p class="text-professional mb-8">
+                        For privacy-related inquiries or to exercise your data rights, please contact our team:
+                    </p>
+                    <div class="contact-card-enhanced">
+                        <div class="text-center">
+                            <div class="icon-wrapper-large mx-auto mb-4" style="width: 4rem; height: 4rem; font-size: 1.5rem;">
+                                <span>📧</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-emphasis mb-4">Support Team</h3>
+                            <a href="mailto:support@studeatz.com" class="btn-professional">
+                                <span class="mr-2">✉️</span>
+                                support@studeatz.com
+                            </a>
+                            <p class="text-muted text-sm mt-4">
+                                Response time: Within 24 hours
+                            </p>
+                        </div>
+                        <div class="mt-8 p-4 alert-success">
+                            <div class="flex items-center justify-center text-center">
+                                <span class="mr-2 text-lg">🔒</span>
+                                <p class="text-sm">
+                                    All privacy inquiries are handled confidentially in accordance with applicable data protection laws.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Last Updated -->
+                <div class="mt-16 pt-8 border-t border-gray-200 text-center">
+                    <div class="info-card p-6">
+                        <p class="text-gray-600 text-center">
+                            <strong class="text-gray-900">📅 Last Updated:</strong> July 16, 2025<br>
+                            <span class="text-sm">We may update this policy from time to time. Any changes will be posted on this page with an updated effective date.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Professional Footer -->
+    <footer class="bg-gray-800 text-white py-8 border-t border-gray-300">        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center space-x-3 mb-4">
+                <img src="assets/logo.png" alt="Studeatz Logo" class="h-12">
+            </div>
+            <div class="w-12 h-px bg-orange-500 mx-auto mb-4"></div>
+            <p class="text-gray-300 mb-2">
+                Enhancing campus dining through innovative technology.
+            </p>
+            <p class="text-gray-500 text-sm">
+                © 2025 Studeatz. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Smooth scrolling script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all section items
+        document.querySelectorAll('.section-item').forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
