@@ -38,4 +38,4 @@ User-agent: GPTBot
 Disallow: /
 
 # Sitemap
-Sitemap: Sitemap: Sitemap: https://cdn.studeatz.com/sitemap_index.xml
+Sitemap: https://cdn.studeatz.com/sitemap_index.xml
